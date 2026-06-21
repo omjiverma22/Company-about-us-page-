@@ -1,0 +1,59 @@
+body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* ID selector to enlarge the company name */
+        #company-name {
+            font-size: 42px;
+            margin: 0;
+        }
+
+        /* Color and background-color applied using Type Selectors */
+        header {
+            background-color: #007ACC;
+            color: #ffffff;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #7B92A7;
+            color: #ffffff;
+            padding: 10px;
+        }
+
+        footer {
+            background-color: #2d3748;
+            color: #ffffff;
+            padding: 20px;
+        }
+
+        /* Simple styling for basic page structure without flexbox/grid */
+        section {
+            padding: 40px 20px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        nav a {
+            color: #ffffff;
+            margin-right: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        address {
+            font-style: normal;
+            line-height: 1.6;
+        }
+
+        address a {
+            color: #63b3ed;
+        }
+    
